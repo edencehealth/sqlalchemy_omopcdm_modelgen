@@ -1,0 +1,16 @@
+name: image
+
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - '*.*.*'
+
+jobs:
+  build:
+    uses: edencehealth/workflows/.github/workflows/dockerimage.yml@main
+    with:
+      container_name: sqlalchemy-omopcdm-modelgen
+      dockerhub_org: ""
+    secrets: inherit

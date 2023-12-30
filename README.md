@@ -1,10 +1,9 @@
 # `sqlalchemy_omopcdm_modelgen`
 
-      Repo | URL
+Repo       | URL
 ---------: | -------------------------------------------------------------
-    GitHub | <https://github.com/edencehealth/sqlalchemy_omopcdm_modelgen>
+GitHub     | <https://github.com/edencehealth/sqlalchemy_omopcdm_modelgen>
 Docker Hub | <https://hub.docker.com/r/edence/sqlalchemy-omopcdm-modelgen>
-
 
 This repo contains the source code for the tool we use to generate the model files in our [`edencehealth/sqlalchemy_omopcdm` repo](https://github.com/edencehealth/sqlalchemy_omopcdm).
 

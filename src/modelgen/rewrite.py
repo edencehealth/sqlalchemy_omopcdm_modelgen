@@ -66,6 +66,13 @@ class ModelRewriter(cst.CSTTransformer):
             )
             class_name = updated_node.name.value
 
+        # Rename Cdm to CDM, if necessary
+        if "Cdm" in class_name:
+            updated_node = updated_node.with_changes(
+                name=cst.Name(class_name.replace("Cdm", "CDM"))
+            )
+            class_name = updated_node.name.value
+
         # Update the base class for model classes
         if updated_node.bases and class_name != self.config.base_class_name:
             updated_node = updated_node.with_changes(

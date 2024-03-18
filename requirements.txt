@@ -1,7 +1,7 @@
 basecfg~=2.1.1
 baselog~=2.0.1
 beautifulsoup4~=4.12.2
-black~=23.12.1
+black~=24.3.0
 git+https://github.com/agronholm/sqlacodegen@master
 isort~=5.13.2
 libcst~=1.1.0

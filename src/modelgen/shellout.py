@@ -1,4 +1,5 @@
 """functions for calling external commands """
+
 import logging
 import subprocess  # nosec: considered
 from typing import IO, Any, Sequence, Tuple, Union

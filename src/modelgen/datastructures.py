@@ -1,4 +1,5 @@
 """ python function snippet which flattens nested iterables """
+
 # pylint: disable=too-few-public-methods
 from typing import Final, Iterable, Iterator, Optional, TypeVar, Union
 

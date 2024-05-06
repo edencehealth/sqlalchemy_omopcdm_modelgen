@@ -1,4 +1,5 @@
 """access the official OMOP CDM documentation"""
+
 import logging
 from typing import Dict
 
